@@ -457,7 +457,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
 
-      printf("hashBlockhashBlock %s\n",hashBlock.GetHex().c_str(),hashTarget.GetHex().c_str());
+    //  printf("hashBlockhashBlock %s\n",hashBlock.GetHex().c_str(),hashTarget.GetHex().c_str());
 
     // Found a solution
     {
