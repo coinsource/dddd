@@ -1,0 +1,827 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rockcoin version v1.0.0.0 ()
+Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+Startup time: 07/06/14 04:54:35
+Default data directory /root/.Rockcoin
+Used data directory /root/.Rockcoin
+dbenv.open LogDir=/root/.Rockcoin/database ErrorFile=/root/.Rockcoin/db.log
+Bound to [::]:32121
+Bound to 0.0.0.0:32121
+Loading block index...
+Opening LevelDB in /root/.Rockcoin/txleveldb
+Opened LevelDB successfully
+CBlock(hash=000003aedfc150dab5fb52f55c0cec7c2301cc5f9cd6511f5fc65aaffcbefe29, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=04be0295800b1ff09ad8ffd13c400eeb9f188dc6aa2b6a2131fc3f61a4c88f17, nTime=1404617231, nBits=1e0fffff, nNonce=2171623, vtx=1, vchBlockSig=)
+  Coinbase(hash=04be029580, nTime=1404617231, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 5a012a066d79636f696e)
+    CTxOut(empty)
+  vMerkleTree: 04be029580 
+block.GetHash() == 000003aedfc150dab5fb52f55c0cec7c2301cc5f9cd6511f5fc65aaffcbefe29
+block.hashMerkleRoot == 04be0295800b1ff09ad8ffd13c400eeb9f188dc6aa2b6a2131fc3f61a4c88f17
+block.nTime = 1404617231 
+block.nNonce = 2171623 
+CBlock(hash=000003aedfc150dab5fb52f55c0cec7c2301cc5f9cd6511f5fc65aaffcbefe29, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=04be0295800b1ff09ad8ffd13c400eeb9f188dc6aa2b6a2131fc3f61a4c88f17, nTime=1404617231, nBits=1e0fffff, nNonce=2171623, vtx=1, vchBlockSig=)
+  Coinbase(hash=04be029580, nTime=1404617231, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 5a012a066d79636f696e)
+    CTxOut(empty)
+  vMerkleTree: 04be029580 
+SetBestChain: new best=000003aedfc150dab5fb  height=0  trust=1048577  blocktrust=1048577  date=07/06/14 03:27:11
+ResetSyncCheckpoint: sync-checkpoint reset to 000003aedfc150dab5fb52f55c0cec7c2301cc5f9cd6511f5fc65aaffcbefe29
+ block index              11ms
+Loading wallet...
+nFileVersion = 1000000
+Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+Performing wallet upgrade to 60000
+keypool added key 1, size=1
+keypool added key 2, size=2
+keypool added key 3, size=3
+keypool added key 4, size=4
+keypool added key 5, size=5
+keypool added key 6, size=6
+keypool added key 7, size=7
+keypool added key 8, size=8
+keypool added key 9, size=9
+keypool added key 10, size=10
+keypool added key 11, size=11
+keypool added key 12, size=12
+keypool added key 13, size=13
+keypool added key 14, size=14
+keypool added key 15, size=15
+keypool added key 16, size=16
+keypool added key 17, size=17
+keypool added key 18, size=18
+keypool added key 19, size=19
+keypool added key 20, size=20
+keypool added key 21, size=21
+keypool added key 22, size=22
+keypool added key 23, size=23
+keypool added key 24, size=24
+keypool added key 25, size=25
+keypool added key 26, size=26
+keypool added key 27, size=27
+keypool added key 28, size=28
+keypool added key 29, size=29
+keypool added key 30, size=30
+keypool added key 31, size=31
+keypool added key 32, size=32
+keypool added key 33, size=33
+keypool added key 34, size=34
+keypool added key 35, size=35
+keypool added key 36, size=36
+keypool added key 37, size=37
+keypool added key 38, size=38
+keypool added key 39, size=39
+keypool added key 40, size=40
+keypool added key 41, size=41
+keypool added key 42, size=42
+keypool added key 43, size=43
+keypool added key 44, size=44
+keypool added key 45, size=45
+keypool added key 46, size=46
+keypool added key 47, size=47
+keypool added key 48, size=48
+keypool added key 49, size=49
+keypool added key 50, size=50
+keypool added key 51, size=51
+keypool added key 52, size=52
+keypool added key 53, size=53
+keypool added key 54, size=54
+keypool added key 55, size=55
+keypool added key 56, size=56
+keypool added key 57, size=57
+keypool added key 58, size=58
+keypool added key 59, size=59
+keypool added key 60, size=60
+keypool added key 61, size=61
+keypool added key 62, size=62
+keypool added key 63, size=63
+keypool added key 64, size=64
+keypool added key 65, size=65
+keypool added key 66, size=66
+keypool added key 67, size=67
+keypool added key 68, size=68
+keypool added key 69, size=69
+keypool added key 70, size=70
+keypool added key 71, size=71
+keypool added key 72, size=72
+keypool added key 73, size=73
+keypool added key 74, size=74
+keypool added key 75, size=75
+keypool added key 76, size=76
+keypool added key 77, size=77
+keypool added key 78, size=78
+keypool added key 79, size=79
+keypool added key 80, size=80
+keypool added key 81, size=81
+keypool added key 82, size=82
+keypool added key 83, size=83
+keypool added key 84, size=84
+keypool added key 85, size=85
+keypool added key 86, size=86
+keypool added key 87, size=87
+keypool added key 88, size=88
+keypool added key 89, size=89
+keypool added key 90, size=90
+keypool added key 91, size=91
+keypool added key 92, size=92
+keypool added key 93, size=93
+keypool added key 94, size=94
+keypool added key 95, size=95
+keypool added key 96, size=96
+keypool added key 97, size=97
+keypool added key 98, size=98
+keypool added key 99, size=99
+keypool added key 100, size=100
+keypool added key 101, size=101
+ wallet                  636ms
+Loading addresses...
+ERROR: CAddrman::Read() : open failed
+Invalid or missing peers.dat; recreating
+Loaded 0 addresses from peers.dat  0ms
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+Done loading
+ThreadDNSAddressSeed started
+Loading addresses from DNS seeds (could take a while)
+ThreadRPCServer started
+ThreadSocketHandler started
+ThreadIRCSeed exited
+ThreadOpenAddedConnections started
+ThreadOpenConnections started
+ThreadMessageHandler started
+ThreadOpenAddedConnections exited
+Added 1 addresses from 54.84.39.245: 0 tried, 1 new
+ThreadStakeMiner started
+Flushed 1 addresses to peers.dat  1ms
+1 addresses found from DNS seeds
+ThreadDNSAddressSeed exited
+trying connection 54.84.39.245:32121 lastseen=91.6hrs
+connected 54.84.39.245:32121
+send version message: version 60013, blocks=0, us=0.0.0.0:0, them=54.84.39.245:32121, peer=54.84.39.245:32121
+accepted connection 54.84.39.245:45670
+connected to self at 54.84.39.245:45670, disconnecting
+disconnecting node 54.84.39.245:45670
+socket closed
+disconnecting node 54.84.39.245:32121
+GetMyExternalIP() received [54.84.39.245] 54.84.39.245:0
+GetMyExternalIP() returned 54.84.39.245
+AddLocal(54.84.39.245:32121,5)
+Flushing wallet.dat
+Flushed wallet.dat 2ms
+accepted connection 117.156.2.135:55194
+send version message: version 60013, blocks=0, us=54.84.39.245:32121, them=117.156.2.135:55194, peer=117.156.2.135:55194
+Added time data, samples 2, offset +0 (+0 minutes)
+receive version message: version 60013, blocks=0, us=54.84.39.245:32121, them=[2001:0:9d38:90d7:86a:bfb7:8a63:fb78]:32121, peer=117.156.2.135:55194
+getblocks -1 to 00000000000000000000 limit 500
+keypool added key 102, size=101
+Flushing wallet.dat
+Flushed wallet.dat 1ms
+Flushed 1 addresses to peers.dat  1ms
+Flushed 1 addresses to peers.dat  1ms
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 00000000004910d17262a2ada2b2aeefde953027a8d04343b0a7e9482380faa4  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=00000000004910d17262a2ada2b2aeefde953027a8d04343b0a7e9482380faa4, ver=6, hashPrevBlock=000003aedfc150dab5fb52f55c0cec7c2301cc5f9cd6511f5fc65aaffcbefe29, hashMerkleRoot=927f6aed0e94ad5ef7fbcc047ccdca4ac10781ef93cc9a42be040c07f47761f8, nTime=1404623755, nBits=1e0fffff, nNonce=76230337, vtx=1, vchBlockSig=)
+  Coinbase(hash=927f6aed0e, nTime=1404623755, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 510101)
+    CTxOut(nValue=100000.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: 927f6aed0e 
+generated 100000.00
+AddToWallet 927f6aed0e  new
+SetBestChain: new best=00000000004910d17262  height=1  trust=2097154  blocktrust=1048577  date=07/06/14 05:15:55
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 1ms
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 0000000000700efe697f2687619de279587dd3a570fd49a988649b983fa6c9e1  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=0000000000700efe697f2687619de279587dd3a570fd49a988649b983fa6c9e1, ver=6, hashPrevBlock=00000000004910d17262a2ada2b2aeefde953027a8d04343b0a7e9482380faa4, hashMerkleRoot=87f48d539d0d101c5f0c26a268bd05a991da7cf5285bf54b051d3dea2684e166, nTime=1404623772, nBits=1e0fffff, nNonce=129350795, vtx=1, vchBlockSig=)
+  Coinbase(hash=87f48d539d, nTime=1404623772, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 520101)
+    CTxOut(nValue=100000.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: 87f48d539d 
+generated 100000.00
+AddToWallet 87f48d539d  new
+SetBestChain: new best=0000000000700efe697f  height=2  trust=3145731  blocktrust=1048577  date=07/06/14 05:16:12
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 1ms
+ResendWalletTransactions()
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 0000000000b5af174c0cab47d4fca39f88d82749612d38dab3766a46b1fb1682  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=0000000000b5af174c0cab47d4fca39f88d82749612d38dab3766a46b1fb1682, ver=6, hashPrevBlock=0000000000700efe697f2687619de279587dd3a570fd49a988649b983fa6c9e1, hashMerkleRoot=0c785c48160e19092b7eb0e367ddd219326f1ef9fefd8fe3f78926067b039bb2, nTime=1404623776, nBits=1e0fffff, nNonce=26283604, vtx=1, vchBlockSig=)
+  Coinbase(hash=0c785c4816, nTime=1404623776, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 530101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: 0c785c4816 
+generated 1.00
+AddToWallet 0c785c4816  new
+SetBestChain: new best=0000000000b5af174c0c  height=3  trust=4194308  blocktrust=1048577  date=07/06/14 05:16:16
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 2ms
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 00000000009e88dfc16a0a3328d8acf8727fa5f20c43e1a9f41e8a9d3b3e02a6  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=00000000009e88dfc16a0a3328d8acf8727fa5f20c43e1a9f41e8a9d3b3e02a6, ver=6, hashPrevBlock=0000000000b5af174c0cab47d4fca39f88d82749612d38dab3766a46b1fb1682, hashMerkleRoot=1801a16e95f70cf3d1f86fbc352144adca7a738baddb9a1122abded095c7d2c8, nTime=1404623778, nBits=1e0fffff, nNonce=32716823, vtx=1, vchBlockSig=)
+  Coinbase(hash=1801a16e95, nTime=1404623778, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 540101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: 1801a16e95 
+generated 1.00
+AddToWallet 1801a16e95  new
+SetBestChain: new best=00000000009e88dfc16a  height=4  trust=5242885  blocktrust=1048577  date=07/06/14 05:16:18
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 2ms
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 000000000020893d4292351a05404923b0bec851f4fd4f8222e6a5d0012c0c74  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=000000000020893d4292351a05404923b0bec851f4fd4f8222e6a5d0012c0c74, ver=6, hashPrevBlock=00000000009e88dfc16a0a3328d8acf8727fa5f20c43e1a9f41e8a9d3b3e02a6, hashMerkleRoot=8064423c70fb4d70ff98eaec444185c16358710e0b2baa5a228a26224bac8795, nTime=1404623910, nBits=1e0fffff, nNonce=22617129, vtx=1, vchBlockSig=)
+  Coinbase(hash=8064423c70, nTime=1404623910, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 550101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: 8064423c70 
+generated 1.00
+AddToWallet 8064423c70  new
+SetBestChain: new best=000000000020893d4292  height=5  trust=6291462  blocktrust=1048577  date=07/06/14 05:18:30
+ProcessBlock: ACCEPTED
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 0000000000bba5442b51b35812202e59dbad26bf6e187c5c7b020a2d2e4615b8  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=0000000000bba5442b51b35812202e59dbad26bf6e187c5c7b020a2d2e4615b8, ver=6, hashPrevBlock=000000000020893d4292351a05404923b0bec851f4fd4f8222e6a5d0012c0c74, hashMerkleRoot=906db78856675faa0aacd70ecd287db14012156e99bb92930f1d4fd071e5db29, nTime=1404623911, nBits=1e0fffff, nNonce=97888445, vtx=1, vchBlockSig=)
+  Coinbase(hash=906db78856, nTime=1404623911, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 560101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: 906db78856 
+generated 1.00
+AddToWallet 906db78856  new
+SetBestChain: new best=0000000000bba5442b51  height=6  trust=7340039  blocktrust=1048577  date=07/06/14 05:18:31
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 1ms
+ThreadRPCServer method=getinfo
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 0000000000ba018c4f9bd634f529a3c646fc14e495d1db009738d4073f6430cb  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=0000000000ba018c4f9bd634f529a3c646fc14e495d1db009738d4073f6430cb, ver=6, hashPrevBlock=0000000000bba5442b51b35812202e59dbad26bf6e187c5c7b020a2d2e4615b8, hashMerkleRoot=dd8556e07247772948ef74bf613b25f2a7a99a594dc0ff4e259f6ccb52f865cf, nTime=1404623926, nBits=1e0fffff, nNonce=5150902, vtx=1, vchBlockSig=)
+  Coinbase(hash=dd8556e072, nTime=1404623926, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 570101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: dd8556e072 
+generated 1.00
+AddToWallet dd8556e072  new
+SetBestChain: new best=0000000000ba018c4f9b  height=7  trust=8388616  blocktrust=1048577  date=07/06/14 05:18:46
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 1ms
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 00000000002a002bad410f633b20fbaa8c811a620163f56393787565d7bd868c  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=00000000002a002bad410f633b20fbaa8c811a620163f56393787565d7bd868c, ver=6, hashPrevBlock=0000000000ba018c4f9bd634f529a3c646fc14e495d1db009738d4073f6430cb, hashMerkleRoot=8048e5ecc6b538e0e998d072efcc2a6e5e463bac830418fc6612eb90a71b8b47, nTime=1404623930, nBits=1e0fffff, nNonce=39070156, vtx=1, vchBlockSig=)
+  Coinbase(hash=8048e5ecc6, nTime=1404623930, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 580101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: 8048e5ecc6 
+generated 1.00
+AddToWallet 8048e5ecc6  new
+SetBestChain: new best=00000000002a002bad41  height=8  trust=9437193  blocktrust=1048577  date=07/06/14 05:18:50
+ProcessBlock: ACCEPTED
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 000000000096100434002d74372ec1cf6a4300401d14e8a723eef6cd952f1666  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=000000000096100434002d74372ec1cf6a4300401d14e8a723eef6cd952f1666, ver=6, hashPrevBlock=00000000002a002bad410f633b20fbaa8c811a620163f56393787565d7bd868c, hashMerkleRoot=cf925ef8c9d1f570dc10fda5a1a8961d38062eb8bdae7fd5efe350848ec057cd, nTime=1404623930, nBits=1e0fffff, nNonce=39070156, vtx=1, vchBlockSig=)
+  Coinbase(hash=cf925ef8c9, nTime=1404623930, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 590101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: cf925ef8c9 
+generated 1.00
+AddToWallet cf925ef8c9  new
+SetBestChain: new best=00000000009610043400  height=9  trust=10485770  blocktrust=1048577  date=07/06/14 05:18:50
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 2ms
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 0000000000e7a470504049b1a7f5e6954e40512e920b2aa5843a20de8785dc0e  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=0000000000e7a470504049b1a7f5e6954e40512e920b2aa5843a20de8785dc0e, ver=6, hashPrevBlock=000000000096100434002d74372ec1cf6a4300401d14e8a723eef6cd952f1666, hashMerkleRoot=413404e426e997a58d623c0ccf8158d3b4eb0affa34b0a9d61ea2976c1b5d09c, nTime=1404623937, nBits=1e0fffff, nNonce=102813993, vtx=1, vchBlockSig=)
+  Coinbase(hash=413404e426, nTime=1404623937, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 5a0101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: 413404e426 
+generated 1.00
+AddToWallet 413404e426  new
+SetBestChain: new best=0000000000e7a4705040  height=10  trust=11534347  blocktrust=1048577  date=07/06/14 05:18:57
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 2ms
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 00000000001abe1df5baa4073ecbfe7ae55f29e25fceed039f21a3ed38d9fa13  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=00000000001abe1df5baa4073ecbfe7ae55f29e25fceed039f21a3ed38d9fa13, ver=6, hashPrevBlock=0000000000e7a470504049b1a7f5e6954e40512e920b2aa5843a20de8785dc0e, hashMerkleRoot=ea795b903f563509b9b658a79e55842b95fd5f67d52d5c641a5035c480b653d0, nTime=1404623949, nBits=1e0fffff, nNonce=125807235, vtx=1, vchBlockSig=)
+  Coinbase(hash=ea795b903f, nTime=1404623949, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 5b0101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: ea795b903f 
+generated 1.00
+AddToWallet ea795b903f  new
+SetBestChain: new best=00000000001abe1df5ba  height=11  trust=12582924  blocktrust=1048577  date=07/06/14 05:19:09
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 1ms
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 0000000000bcef944c06848086e76e796b35e346951e0861d61428af4c0606ca  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=0000000000bcef944c06848086e76e796b35e346951e0861d61428af4c0606ca, ver=6, hashPrevBlock=00000000001abe1df5baa4073ecbfe7ae55f29e25fceed039f21a3ed38d9fa13, hashMerkleRoot=504721aaf6f07ed33601cfaedf3b3383124bf78608906aca37071347c94cc941, nTime=1404623956, nBits=1e0fffff, nNonce=58657542, vtx=1, vchBlockSig=)
+  Coinbase(hash=504721aaf6, nTime=1404623956, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 5c0101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: 504721aaf6 
+generated 1.00
+AddToWallet 504721aaf6  new
+SetBestChain: new best=0000000000bcef944c06  height=12  trust=13631501  blocktrust=1048577  date=07/06/14 05:19:16
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 1ms
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 00000000003b9afd005f5d588ee15b34ceddb793f0b01727dffbeae3516c7276  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=00000000003b9afd005f5d588ee15b34ceddb793f0b01727dffbeae3516c7276, ver=6, hashPrevBlock=0000000000bcef944c06848086e76e796b35e346951e0861d61428af4c0606ca, hashMerkleRoot=82796947a881411c89844ec68feb2a1ea27f7e3f197fd47ea8a8605dfa70d81b, nTime=1404623961, nBits=1e0fffff, nNonce=36598318, vtx=1, vchBlockSig=)
+  Coinbase(hash=82796947a8, nTime=1404623961, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 5d0101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: 82796947a8 
+generated 1.00
+AddToWallet 82796947a8  new
+SetBestChain: new best=00000000003b9afd005f  height=13  trust=14680078  blocktrust=1048577  date=07/06/14 05:19:21
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 1ms
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 00000000001e0f33d342c5bd6956bd40bae14f535ffa1549c05545903d6afdc4  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=00000000001e0f33d342c5bd6956bd40bae14f535ffa1549c05545903d6afdc4, ver=6, hashPrevBlock=00000000003b9afd005f5d588ee15b34ceddb793f0b01727dffbeae3516c7276, hashMerkleRoot=9a9fc67185ebd28c513ba0f1712764cc4e99634d8b811c002c306d0b56ef4026, nTime=1404623973, nBits=1e0fffff, nNonce=66618747, vtx=1, vchBlockSig=)
+  Coinbase(hash=9a9fc67185, nTime=1404623973, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 5e0101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: 9a9fc67185 
+generated 1.00
+AddToWallet 9a9fc67185  new
+SetBestChain: new best=00000000001e0f33d342  height=14  trust=15728655  blocktrust=1048577  date=07/06/14 05:19:33
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 1ms
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 0000000000c6b7f98a7f227e26d3a7d36a129c8c55cd91ff7c871451a3093f73  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=0000000000c6b7f98a7f227e26d3a7d36a129c8c55cd91ff7c871451a3093f73, ver=6, hashPrevBlock=00000000001e0f33d342c5bd6956bd40bae14f535ffa1549c05545903d6afdc4, hashMerkleRoot=ee14521b8284ce4f945ce1ba8616f752317db3998043cf92db5c03c8db4a9bb4, nTime=1404623975, nBits=1e0fffff, nNonce=100746360, vtx=1, vchBlockSig=)
+  Coinbase(hash=ee14521b82, nTime=1404623975, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 5f0101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: ee14521b82 
+generated 1.00
+AddToWallet ee14521b82  new
+SetBestChain: new best=0000000000c6b7f98a7f  height=15  trust=16777232  blocktrust=1048577  date=07/06/14 05:19:35
+ProcessBlock: ACCEPTED
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 0000000000acf1f29575d325d4e3a2b4be5ea8558ede09aa4a7551f404422cc8  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=0000000000acf1f29575d325d4e3a2b4be5ea8558ede09aa4a7551f404422cc8, ver=6, hashPrevBlock=0000000000c6b7f98a7f227e26d3a7d36a129c8c55cd91ff7c871451a3093f73, hashMerkleRoot=58d06259911ca49e7e6227ecc522c68ca20a361585b053254d0d9365d7de4736, nTime=1404623977, nBits=1e0fffff, nNonce=131631390, vtx=1, vchBlockSig=)
+  Coinbase(hash=58d0625991, nTime=1404623977, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 600101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: 58d0625991 
+generated 1.00
+AddToWallet 58d0625991  new
+SetBestChain: new best=0000000000acf1f29575  height=16  trust=17825809  blocktrust=1048577  date=07/06/14 05:19:37
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 2ms
+ThreadRPCServer method=submitblock
+CheckWork() : new proof-of-work block found  
+  hash: 000000000086528965ad38dcb1d3e9234290ca525a418d74836d1a3236a0742b  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+CBlock(hash=000000000086528965ad38dcb1d3e9234290ca525a418d74836d1a3236a0742b, ver=6, hashPrevBlock=0000000000acf1f29575d325d4e3a2b4be5ea8558ede09aa4a7551f404422cc8, hashMerkleRoot=6e0460330fe5342a3e96d33b9233f4c9790021884235cf921bd4d30dfb5acf52, nTime=1404623991, nBits=1e0fffff, nNonce=50815185, vtx=1, vchBlockSig=)
+  Coinbase(hash=6e0460330f, nTime=1404623991, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 01110101)
+    CTxOut(nValue=1.00, scriptPubKey=OP_DUP OP_HASH160 cbab6c03a25dc418f0db5c754c6b34f72cc80609 OP_EQUALVERIFY OP_CHECKSIG)
+  vMerkleTree: 6e0460330f 
+generated 1.00
+AddToWallet 6e0460330f  new
+SetBestChain: new best=000000000086528965ad  height=17  trust=18874386  blocktrust=1048577  date=07/06/14 05:19:51
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 2ms
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
+ThreadRPCServer method=submitblock
+
+
+******* exception encountered *******
+rockcoind[0x58726c]
+rockcoind[0x4716cb]
+rockcoind[0x4caf2b]
+rockcoind[0x4eb99b]
+rockcoind[0x4ebbf3]
+rockcoind[0x54054b]
+rockcoind[0x505572]
+rockcoind[0x508d30]
+/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0(+0xba4a)[0x7f44580aca4a]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8182)[0x7f445771f182]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d)[0x7f4456c2c30d]
